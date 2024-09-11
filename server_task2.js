@@ -27,7 +27,6 @@ const server = http.createServer((req, res) => {
     }
 });
 
-server.listen(5001, () => {
+server.listen(5001, () => { // Use port 5001 to avoid conflicts
     console.log('The NodeJS server on port 5001 is now running...');
 });
-
